@@ -1,0 +1,10 @@
+space,algorithm,n_clusters,ARI,NMI,silhouette
+before: PCA-50,KMeans,27,0.03,0.147,0.103
+before: PCA-50,Agglomerative,27,0.033,0.166,0.108
+before: PCA-50,DBSCAN,7,0.007,0.052,0.104
+after: UMAP-10,KMeans,27,0.035,0.167,0.592
+after: UMAP-10,Agglomerative,27,0.03,0.159,0.556
+after: UMAP-10,DBSCAN,67,0.037,0.284,0.273
+after: LDA,KMeans,27,0.514,0.696,0.241
+after: LDA,Agglomerative,27,0.468,0.68,0.227
+after: LDA,DBSCAN,5,0.011,0.132,0.048

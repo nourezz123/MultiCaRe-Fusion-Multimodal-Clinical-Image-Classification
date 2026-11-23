@@ -1,0 +1,10 @@
+,value
+Accuracy,0.7645
+Error rate,0.2355
+Precision (macro),0.7646
+Recall (macro),0.757
+F-measure (macro),0.7595
+Precision (weighted),0.7655
+Recall (weighted),0.7645
+F-measure (weighted),0.7637
+ROC-AUC (OvR macro),0.9814

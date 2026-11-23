@@ -1,0 +1,15 @@
+method,n_features,test_accuracy,test_macro_F1,selection_time_s
+Baseline: all features,2806,0.7618,0.7583,0.0
+LDA (reduction),26,0.7513,0.7476,0.6
+PCA-100 (reduction),100,0.7326,0.7259,1.0
+Embedded ElasticNet,100,0.7137,0.7087,44.7
+Filter ANOVA-F top-100,100,0.7052,0.6989,50.0
+Embedded L1 (lasso),100,0.7042,0.6987,64.5
+Filter MI top-100,100,0.6974,0.6887,50.0
+Embedded L2 (ridge),100,0.6903,0.6867,17.7
+Genetic Algorithm,43,0.6489,0.6357,45.9
+Simulated Annealing,45,0.6455,0.6357,51.2
+Filter MI top-50,50,0.6408,0.6262,50.0
+Wrapper forward SFS,20,0.5883,0.573,65.4
+Wrapper backward SFS,20,0.5801,0.5579,132.7
+Random 50 features (control),50,0.4724,0.4603,0.0

@@ -1,0 +1,28 @@
+features,model,params,is_default,cv_acc,cv_std
+All features,LogReg,{'C': 0.1},True,0.7475,0.0058
+All features,LogReg,{'C': 0.001},False,0.7566,0.0045
+All features,LogReg,{'C': 0.003},False,0.7601,0.0073
+All features,LogReg,{'C': 0.01},False,0.7526,0.0062
+All features,LogReg,{'C': 0.03},False,0.7495,0.0067
+All features,MLP,"{'alpha': 0.0001, 'hidden': (256,)}",True,0.7489,0.0073
+All features,MLP,"{'alpha': 0.001, 'hidden': (128,)}",False,0.734,0.004
+All features,MLP,"{'alpha': 0.01, 'hidden': (128,)}",False,0.7352,0.0012
+All features,MLP,"{'alpha': 0.1, 'hidden': (128,)}",False,0.7368,0.0015
+All features,MLP,"{'alpha': 1.0, 'hidden': (128,)}",False,0.748,0.0029
+LDA,LinearSVM,"{'alpha': 0.001, 'max_iter': 30}",True,0.6663,0.0158
+LDA,LinearSVM,"{'alpha': 1e-05, 'max_iter': 100}",False,0.6743,0.0178
+LDA,LinearSVM,"{'alpha': 0.0001, 'max_iter': 100}",False,0.7061,0.0071
+LDA,LinearSVM,"{'alpha': 0.001, 'max_iter': 100}",False,0.6913,0.0153
+LDA,kNN,{'k': 15},True,0.7254,0.0022
+LDA,kNN,{'k': 25},False,0.7272,0.0016
+LDA,kNN,{'k': 50},False,0.7253,0.0054
+LDA,RandomForest,"{'min_samples_leaf': 1, 'max_depth': None}",True,0.7427,0.0013
+LDA,RandomForest,"{'min_samples_leaf': 3, 'max_depth': 12}",False,0.7308,0.0012
+LDA,RandomForest,"{'min_samples_leaf': 3, 'max_depth': 20}",False,0.7377,0.0013
+LDA,RandomForest,"{'min_samples_leaf': 10, 'max_depth': 12}",False,0.726,0.0037
+LDA,RandomForest,"{'min_samples_leaf': 10, 'max_depth': 20}",False,0.7337,0.0037
+LDA,XGBoost,"{'n_estimators': 150, 'max_depth': 6, 'learning_rate': 0.1}",True,0.7212,0.0006
+LDA,XGBoost,"{'n_estimators': 200, 'max_depth': 3, 'learning_rate': 0.1, 'subsample': 0.7, 'colsample_bytree': 0.5, 'reg_lambda': 1}",False,0.7232,0.0033
+LDA,XGBoost,"{'n_estimators': 200, 'max_depth': 3, 'learning_rate': 0.1, 'subsample': 0.7, 'colsample_bytree': 0.5, 'reg_lambda': 10}",False,0.7293,0.0034
+LDA,XGBoost,"{'n_estimators': 200, 'max_depth': 4, 'learning_rate': 0.1, 'subsample': 0.7, 'colsample_bytree': 0.5, 'reg_lambda': 1}",False,0.727,0.0051
+LDA,XGBoost,"{'n_estimators': 200, 'max_depth': 4, 'learning_rate': 0.1, 'subsample': 0.7, 'colsample_bytree': 0.5, 'reg_lambda': 10}",False,0.7252,0.0019

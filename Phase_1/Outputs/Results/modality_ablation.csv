@@ -1,0 +1,10 @@
+modality,n_features,test_acc,test_macroF1,s
+"Tabular (age, gender)",11,0.0685,0.0293,0.3
+Case text,200,0.3036,0.2955,0.9
+Image (handcrafted),347,0.4419,0.4241,3.7
+Text (both),400,0.5815,0.5785,1.7
+Caption text,200,0.5957,0.5943,1.0
+Image (ResNet50),2048,0.7177,0.7128,12.1
+Image (both),2395,0.7242,0.7198,14.0
+Image + Caption,2595,0.7611,0.7569,11.7
+FUSION (all),2806,0.7648,0.7613,10.5

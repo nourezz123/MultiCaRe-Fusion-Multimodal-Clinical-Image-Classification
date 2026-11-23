@@ -1,0 +1,6 @@
+Work,Data,Model,Task,Metric,Result
+Nievas Offidani et al. (MultiCaRe dataset paper),MultiCaRe,"ResNet50 ensemble (13 models), image only",taxonomy labels (81 classes),"accuracy, F1",numbers not in the paper: copy from the GitHub repo
+This work: image-only baseline,MultiCaRe subset (14.9k imgs),ResNet50 embeddings + Logistic Regression,subtype (27 classes),accuracy / macro-F1,0.718 / 0.713
+This work: best multimodal model,MultiCaRe subset (14.9k imgs),All features + MLP,subtype (27 classes),accuracy / macro-F1,0.764 / 0.759
+(add related work 1),,,,,
+(add related work 2),,,,,

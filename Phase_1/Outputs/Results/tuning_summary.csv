@@ -1,0 +1,7 @@
+features,model,best_params,default_cv,tuned_cv,tuned_train,tuned_test,tuned_gap,default_train,default_test,default_gap,cv_gain,gap_change
+All features,LogReg,{'C': 0.003},0.747,0.76,0.973,0.779,0.194,1.0,0.765,0.235,0.013,-0.042
+All features,MLP,"{'alpha': 0.0001, 'hidden': (256,)}",0.749,0.749,0.977,0.764,0.213,0.977,0.764,0.213,0.0,0.0
+LDA,LinearSVM,"{'alpha': 0.0001, 'max_iter': 100}",0.666,0.706,0.757,0.742,0.015,0.731,0.696,0.035,0.04,-0.021
+LDA,kNN,{'k': 25},0.725,0.727,1.0,0.755,0.245,1.0,0.749,0.251,0.002,-0.005
+LDA,RandomForest,"{'min_samples_leaf': 1, 'max_depth': None}",0.743,0.743,1.0,0.753,0.247,1.0,0.753,0.247,0.0,0.0
+LDA,XGBoost,"{'n_estimators': 200, 'max_depth': 3, 'learning_rate': 0.1, 'subsample': 0.7, 'colsample_bytree': 0.5, 'reg_lambda': 10}",0.721,0.729,0.872,0.748,0.124,0.999,0.747,0.252,0.008,-0.129

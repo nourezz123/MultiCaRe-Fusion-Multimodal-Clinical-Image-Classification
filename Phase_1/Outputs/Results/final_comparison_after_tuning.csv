@@ -1,0 +1,4 @@
+configuration,features / models,train_acc,test_acc,test_macroF1,train-test gap
+Section 3 best (default params),All features + MLP,0.9772,0.7645,0.7595,0.2127
+Best tuned single model (by CV),All features + LogReg,0.973,0.7794,0.7748,0.1936
+Soft-voting ensemble (top-3 tuned),All features/LogReg + All features/MLP + LDA/RandomForest,,0.7801,0.7745,
